@@ -1,9 +1,9 @@
-// App.js
+
 import React from 'react';
 import {View, Text, FlatList, Image} from 'react-native';
 import {DataProvider, useData} from '../context/Mycontext';
 
-export default function App() {
+export default function ContextApiPage() {
   return (
     <DataProvider>
       <MainComponent />

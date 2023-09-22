@@ -3,6 +3,8 @@ import React , { useState , useEffect} from 'react';
 import axios from 'axios';
 
 
+
+// In this page , I used url directly and I didn't use this page on my app
 const url = 'https://jsonplaceholder.typicode.com/photos'
 
 const Item = ({item}) => <Text>{item.id}</Text>;
